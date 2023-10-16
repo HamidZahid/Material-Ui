@@ -6,7 +6,7 @@ import LogoutIcon from '@mui/icons-material/Logout';
 
 const Navbar = () => {
     return (
-        <AppBar position='sticky'>
+        <AppBar position='static'>
             <Toolbar>
                 <Typography variant='h5' flexGrow={1} >Hamid Zahid APP </Typography>
                 <Button variant='text' color="inherit" startIcon={<LoginIcon />} >Login</Button>
