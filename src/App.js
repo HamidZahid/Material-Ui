@@ -3,8 +3,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import HeroSection from "./components/HeroSection";
 import Cakess from "./components/Cakess";
 import { Container } from "@mui/material";
-import { Cake } from "@mui/icons-material";
-import Contact from "./components/Contact";
+import ContactUS from "./components/ContactUS";
 const theme = createTheme({
   palette: {
     primary: {
@@ -22,7 +21,7 @@ function App() {
 
         <HeroSection />
         <Cakess />
-        {/* <Contact /> */}
+        <ContactUS />
       </Container>
     </ThemeProvider>
 
